@@ -20,18 +20,16 @@ out = open('output.txt', 'w', encoding='utf-8')
 
 for line in poem:
     # 将所有标点符号替换为空格
-    line = list(line)
     if '，' in line:
-        line[line.index('，')] = ' '
+        line = line.replace('，', ' ')
     if '。' in line:
-        line[line.index('。')] = ' '
+        line = line.replace('。', ' ')
     if '？' in line:
-        line[line.index('？')] = ' '
+        line = line.replace('？', ' ')
     if '！' in line:
-        line[line.index('！')] = ' '
+        line = line.replace('！', ' ')
     if '：' in line:
-        line[line.index('：')] = ' '
-    line = ''.join(line)
+        line = line.replace('：', ' ')
 
     # 分成上下联
     sentence = line.split()
