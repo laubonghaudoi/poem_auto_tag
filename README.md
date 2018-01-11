@@ -1,10 +1,10 @@
 # 为古诗文自动标注中古汉语拼音（polyhedron版）
 
-目前仅限于上下联对仗工整文体的自动注音，且**必须输入繁体字**。
+目前仅限于繁体字输入，未来将加入自动简繁转换。
 
 使用方法：
 1. 前往[维基文库](https://zh.wikisource.org/wiki/Wikisource:%E9%A6%96%E9%A1%B5)
-1. 搜索律诗并粘贴至`poem.txt`中，或搜索古文、杂言诗粘贴至`article.txt`中
+1. 搜索律诗或绝句并粘贴至`poem.txt`中，或搜索古文、杂言诗粘贴至`article.txt`中
 1. 运行`poem.py`  或`article.py`，将自动输出注音于`output.txt`中
 
 此程序可以用来进行其他语言的自动注音，前往此仓库[Chinese_dialect_Rime_dict
@@ -52,4 +52,5 @@ sjeng duanx/tuanh/tuanx ghrang jang cji phox
 计划添加功能：
 
 1. [x] 加入杂言诗和古文的支持，以摆脱上下联必须对仗工整的限制
+2. [ ] 自动将简体字转换为繁体字
 1. [ ] 加入平仄标记
