@@ -25,7 +25,7 @@ jih/jix/zsix nji thanh yat
 iux khrak myo ciux 
 有客無酒
 iux ciux myo ghrau 
-有酒無肴
+有酒無餚
 ngyat brak piung/piungh chieng 
 月白風清
 njo/njoh chiex liang jah gha/ghax 
@@ -124,8 +124,8 @@ syo gyih/jyo khrak khioh/khiox
 須臾客去
 jo/jox jek ziuh zjyeh 
 予亦就睡
-miung/miungh qjit daux zrix ERR ERR ERR 
-夢一道士[1]
+miung/miungh qjit daux zrix 
+夢一道士
 yoh/yox qioi/qioih ben/pen sen/sien 
 羽衣蹁躚
 kua/kuah lim/limh kau cji ghrah/ghrax 

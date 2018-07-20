@@ -17,7 +17,7 @@ for line in lines:
         dictionary[char[0]] = char[1]
 
 # 输入输出文件
-article = open('article.txt', encoding='utf-8').readlines()
+article = open('input.txt', encoding='utf-8').readlines()
 out = open('output.txt', 'w', encoding='utf-8')
 
 for paragraph in article:

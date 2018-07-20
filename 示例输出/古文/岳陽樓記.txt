@@ -59,7 +59,7 @@ druk lang/langh brai khung/khungh
 njit seng qionh/qionx jeuh 
 日星隱曜
 sren ngruk ziem/ziemh gheng 
-山岳潛形
+山嶽潛形
 sjang liox piu/piux/puot/pyot ghang/ghangh/ghrang/ghrangh 
 商旅不行
 ziang khjyeng ciep zuai 
@@ -144,10 +144,12 @@ njen cok gha/ghax zji nji lak/ngrauh/ngruk ja
 然則何時而樂耶
 gi/ki pjit yat 
 其必曰
-ERR sen/senh then ghrah/ghrax cji qiu nji qiu 
-「先天下之憂而憂
-ghuh/ghux then ghrah/ghrax cji lak/ngrauh/ngruk nji lak/ngrauh/ngruk ERR jo/joh/jox 
-後天下之樂而樂」歟
+sen/senh then ghrah/ghrax cji qiu nji qiu 
+先天下之憂而憂
+ghuh/ghux then ghrah/ghrax cji lak/ngrauh/ngruk nji lak/ngrauh/ngruk 
+後天下之樂而樂
+gho 
+乎
 qi/qraih 
 噫
 myoi sie njin 

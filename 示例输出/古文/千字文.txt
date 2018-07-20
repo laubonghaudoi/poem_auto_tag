@@ -15,9 +15,9 @@ lyt liox deu/deuh/triu jang
 閏餘成歲
 律呂調陽
 yon dong triih yoh/yox 
-loh ket ye sriang 
+loh ket ye/yeh sriang 
 雲騰致雨
-露結為霜
+露結爲霜
 kim srieng/sriengh leh/lie sjyix 
 ngyuk chjyih/chjyt kuon kang 
 金生麗水
@@ -63,9 +63,9 @@ lyih/lyt/sryih/sryt pjin kyoi yang/yangh
 遐邇壹體
 率賓歸王
 mieng biungh zaih/zaix zjyoh/zjyox 
-brak kyo jih/zsih/zsjik driang ERR ERR ERR 
+brak kyo jih/zsih/zsjik driang 
 鳴鳳在樹
-白駒食場[1]
+白駒食場
 hruah bieh/biex chaux muk 
 lad gip myanh byang/pyang 
 化被草木
@@ -94,9 +94,9 @@ sinh srih/srix khax biuh/phiuh/phiuk/phok
 khiih jyuk nan/nanh liang/liangh 
 信使可覆
 器欲難量
-mok pii si njemh/njemx 
+mok pii si chuaih 
 sji canh kau jang 
-墨悲絲染
+墨悲絲淬
 詩讃羔羊
 kiengx ghang/ghangh/ghrang/ghrangh jyi ghen 
 khok nemh cah/cak/coh sjengh 
@@ -196,7 +196,7 @@ sim dungx zsjin bie
 心動神疲
 sjuh/sjux cjin cjih muanx 
 driuk myot qih je 
-守真志滿
+守眞志滿
 逐物意移
 ken dri ngrax chau/chauh/sux 
 hauh/haux ciak ziih mie 
@@ -307,9 +307,9 @@ prak gyonh zin pjeng/pjengh
 九州禹跡
 百郡秦并
 ngruk cuung ERR daih 
-zjen/zjenh cjyox yon deng ERR ERR ERR 
+zjen/zjenh cjyox yon deng 
 嶽宗恆岱
-禪主云亭[2]
+禪主雲亭
 ngranh muon ciex saih/sok 
 ke den chjek zjeng 
 雁門紫塞

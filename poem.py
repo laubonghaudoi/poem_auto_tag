@@ -16,7 +16,7 @@ for line in lines:
         dictionary[char[0]] = char[1]
 
 # 输入输出文件
-poem = open('poem.txt', encoding='utf-8').readlines()
+poem = open('input.txt', encoding='utf-8').readlines()
 out = open('output.txt', 'w', encoding='utf-8')
 
 for line in poem:
