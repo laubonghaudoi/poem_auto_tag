@@ -1,3 +1,4 @@
+import re
 # 选择字典，可以自行替换为其他语言
 lines = open('zyenpheng.txt', encoding='utf-8').readlines()
 
@@ -20,23 +21,17 @@ out = open('output.txt', 'w', encoding='utf-8')
 
 for line in poem:
     # 将所有标点符号替换为空格
-    if '，' in line:
-        line = line.replace('，', ' ')
-    if '。' in line:
-        line = line.replace('。', ' ')
-    if '？' in line:
-        line = line.replace('？', ' ')
-    if '！' in line:
-        line = line.replace('！', ' ')
-    if '：' in line:
-        line = line.replace('：', ' ')
+    line = line.replace("[", "")
+    line = line.replace("]", "")
+    line = re.sub("\d+", "", line)
+    line = re.sub("[，。？！：；“”「」『』、]+", " ", line)
 
     # 分成上下联
     sentence = line.split()
 
     up = sentence[0]
     down = sentence[1]
-    
+
     for char in up:
         try:
             out.write(dictionary[char] + ' ')

@@ -1,3 +1,5 @@
+import re
+
 # 选择字典，可以自行替换为其他语言
 lines = open('zyenpheng.txt', encoding='utf-8').readlines()
 
@@ -24,35 +26,15 @@ for paragraph in article:
     except:
         continue
 
-    if not line: 
+    if not line:
         # 如遇到换行符、空段落则跳过
         continue
     else:
-        if '，' in line:
-            line = line.replace('，', ' ')
-        if '。' in line:
-            line = line.replace('。', ' ')
-        if '？' in line:
-            line = line.replace('？', ' ')
-        if '！' in line:
-            line = line.replace('！', ' ')
-        if '：' in line:
-            line = line.replace('：', ' ')
-        if '；' in line:
-            line = line.replace('；', ' ')
-        if '“' in line:
-            line = line.replace('“', ' ')
-        if '”' in line:
-            line = line.replace('”', ' ')
-        if '「' in line:
-            line = line.replace('「', ' ')
-        if '」' in line:
-            line = line.replace('」', ' ')
-        if '『' in line:
-            line = line.replace('『', ' ')
-        if '』' in line:
-            line = line.replace('』', ' ')
-    
+        line = line.replace("[", "")
+        line = line.replace("]", "")
+        line = re.sub("\d+", "", line)
+        line = re.sub("[，。？！：；“”「」『』、]+", " ", line)
+
     sentences = line.split()
 
     for prose in sentences:
