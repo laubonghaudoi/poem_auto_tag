@@ -1,8 +1,9 @@
 # 为古诗文自动标注中古汉语拼音（polyhedron版）
 
-因为简体字的归并问题，本程序仅限于繁体字输入。
+因为简体字的归并问题，本程序仅支持繁体字输入。
 
 使用方法：
+
 1. 前往[维基文库](https://zh.wikisource.org/wiki/Wikisource:%E9%A6%96%E9%A1%B5)
 2. 搜索繁体版古诗词或古文并粘贴至`input.txt`中
 3. 如果文体是律诗或绝句，则运行`poem.py`，如果是古文、古体诗、杂言诗等则运行`article.py`，注音将自动输出至`output.txt`中
@@ -54,4 +55,5 @@ sjeng duanx/tuanh/tuanx ghrang jang cji phox
 1. [ ] 加入平仄标记
 
 ## 参考
+
 [rime-middle-chinese](https://github.com/biopolyhedron/rime-middle-chinese)

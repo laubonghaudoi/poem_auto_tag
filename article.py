@@ -9,7 +9,7 @@ dictionary = {}
 
 for line in lines:
     char = line.split()
-    # 将每个字机器读音添加至dictionary中，多音字的多个读音合并为一个并用/分割
+    # 将每个字及其读音添加至dictionary中，多音字的多个读音合并为一个并用/分割
     if char[0] in dictionary:
         pron = dictionary[char[0]]
         dictionary[char[0]] = pron + '/' + char[1]
