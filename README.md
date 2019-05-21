@@ -1,17 +1,17 @@
-# 为古诗文自动标注中古汉语拼音（polyhedron版）
+# 為古詩文自動標註中古漢語拼音（polyhedron版）
 
-因为简体字的归并问题，本程序仅支持繁体字输入。
+因為簡體字的歸並問題，本程序僅支持繁體字輸入。
 
 使用方法：
 
-1. 前往[维基文库](https://zh.wikisource.org/wiki/Wikisource:%E9%A6%96%E9%A1%B5)
-2. 搜索繁体版古诗词或古文并粘贴至`input.txt`中
-3. 如果文体是律诗或绝句，则运行`poem.py`，如果是古文、古体诗、杂言诗等则运行`article.py`，注音将自动输出至`output.txt`中
+1. 前往[維基文庫](https://zh.wikisource.org/wiki/Wikisource:%E9%A6%96%E9%A1%B5)
+2. 搜索繁體版古詩詞或古文並粘貼至`input.txt`中
+3. 如果文體是律詩或絕句，則運行`poem.py`，如果是古文、古體詩、雜言詩等則運行`article.py`，註音將自動輸出至`output.txt`中
 
-此程序可以用来进行其他语言的自动注音，前往此仓库[Chinese_dialect_Rime_dict
-](https://github.com/laubonghaudoi/Chinese_dialect_Rime_dict)下载对应的`.dict.yaml`文件并手动修改为txt纯文本，替换`zyenpheng.txt`即可。
+此程序可以用來進行其他語言的自動註音，前往此倉庫[Chinese_dialect_Rime_dict
+](https://github.com/laubonghaudoi/Chinese_dialect_Rime_dict)下載對應的`.dict.yaml`文件並手動修改為txt純文本，替換`zyenpheng.txt`即可。
 
-输出示例在`\示例输出`文件夹中，以下为参考效果：
+輸出示例在頂層目錄的各文件夾中。以下為參考效果：
 
 ```
 chyih ghrua/ghruah/hrua jeu/jeuh jeu/jeuh ghang/ghangh/ghrang/ghrangh biuh/biuk cjix 
@@ -50,10 +50,6 @@ sjeng duanx/tuanh/tuanx ghrang jang cji phox
 聲斷衡陽之浦
 ```
 
-计划添加功能：
+## 參考
 
-1. [ ] 加入平仄标记
-
-## 参考
-
-[rime-middle-chinese](https://github.com/biopolyhedron/rime-middle-chinese)
+[rime-middle-chinese](https://github.com/biopolyhedron/rime-middle-chinese
