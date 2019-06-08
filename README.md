@@ -1,6 +1,6 @@
 # 為古詩文自動標註中古漢語拼音（polyhedron版）
 
-因為簡體字的歸並問題，本程序僅支持繁體字輸入。
+因為[簡體字的歸並問題](https://ytenx.org/byohlyuk/KienxPyan)，本程序僅支持繁體字輸入。
 
 使用方法：
 
@@ -52,4 +52,5 @@ sjeng duanx/tuanh/tuanx ghrang jang cji phox
 
 ## 參考
 
-[rime-middle-chinese](https://github.com/biopolyhedron/rime-middle-chinese
+[中古漢語拼音](https://zh.wikipedia.org/wiki/User:Polyhedron/%E4%B8%AD%E5%8F%A4%E6%BC%A2%E8%AA%9E%E6%8B%BC%E9%9F%B3)
+[rime-middle-chinese](https://github.com/biopolyhedron/rime-middle-chinese)
