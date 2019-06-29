@@ -8,8 +8,8 @@
 2. 搜索繁體版古詩詞或古文並粘貼至`input.txt`中
 3. 如果文體是律詩或絕句，則運行`poem.py`，如果是古文、古體詩、雜言詩等則運行`article.py`，註音將自動輸出至`output.txt`中
 
-此程序可以用來進行其他語言的自動註音，前往此倉庫[Chinese_dialect_Rime_dict
-](https://github.com/laubonghaudoi/Chinese_dialect_Rime_dict)下載對應的`.dict.yaml`文件並手動修改為txt純文本，替換`zyenpheng.txt`即可。
+此程序可以用來進行其他語言的自動註音，前往[此倉庫
+](https://github.com/laubonghaudoi/Chinese_Rime)下載對應的`.dict.yaml`文件並手動修改為txt純文本，替換`zyenpheng.txt`即可。
 
 輸出示例在頂層目錄的各文件夾中。以下為參考效果：
 
@@ -52,5 +52,5 @@ sjeng duanx/tuanh/tuanx ghrang jang cji phox
 
 ## 參考
 
-[中古漢語拼音](https://zh.wikipedia.org/wiki/User:Polyhedron/%E4%B8%AD%E5%8F%A4%E6%BC%A2%E8%AA%9E%E6%8B%BC%E9%9F%B3)
-[rime-middle-chinese](https://github.com/biopolyhedron/rime-middle-chinese)
+- [中古漢語拼音](https://zh.wikipedia.org/wiki/User:Polyhedron/%E4%B8%AD%E5%8F%A4%E6%BC%A2%E8%AA%9E%E6%8B%BC%E9%9F%B3)
+- [rime-middle-chinese](https://github.com/biopolyhedron/rime-middle-chinese)
